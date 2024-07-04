@@ -68,5 +68,15 @@ public class AtendimentoService implements IService<Atendimento> {
         return horarios;
         
     }
+
+    public Atendimento getAtendimentoById(long l) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAtendimentoById'");
+    }
+
+    public List<Atendimento> getAtendimentoTermoBusca(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAtendimentoTermoBusca'");
+    }
     
 }

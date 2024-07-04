@@ -27,5 +27,7 @@ public interface AtendimentoRepository extends JpaRepository<Atendimento, Long> 
 
     List<Atendimento> findByProfissionalAndDataAndStatusNot(
         Profissional profissional, LocalDate data, EStatus status);
+
+    Object findByTermoBusca(String string);
     
 }
